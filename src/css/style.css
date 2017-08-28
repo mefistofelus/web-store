@@ -1,0 +1,93 @@
+/* RESET START */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    color: #111;
+    font: 12px/1 'Harmonia-regular', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+ul, ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+input, textarea, button{
+    outline: none;
+    border: none;
+}
+textarea{
+    resize: vertical;
+}
+button{
+    cursor: pointer;
+}
+/* RESET END */
+
+/* DEFAULT CLASSES START */
+.flex-container{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.custom-icon{
+    display: inline-block;
+}
+.align-center{
+    align-items: center;
+}
+.justify-sp-between{
+    justify-content: space-between;
+}
+.orange-text{
+    color: #ff5912;
+}
+/* DEFAULT CLASSES END */
+
+/* DEFAULT COMPONENTS START */
+.custom-icon{
+    display: inline-block;
+}
+.title{
+    font-family: 'Harmonia_black';
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+.title.big{
+    font-size: 52px;
+}
+header .top-header {
+    border-bottom: 1px solid #edeff11;
+    padding: 20px 0;
+}
+header .top-header .phones-list li + li{
+    margin-left: 20px;
+}
+header .top-header .phones-list li span.custom-icon{
+    margin-right: 10px;
+}
+.icon-carousel{
+    min-height: 650px;
+    background: url(../img/carousel-img-1.jpg) no-repeat center / cover;
+    margin-bottom: 60px;
+}
+.default-section{
+    padding: 60px 0;
+}
+/* DEFAULT COMPONENTS END */
+
+/* ALL STYLES START */
+/* ALL STYLES END */
