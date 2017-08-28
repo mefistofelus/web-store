@@ -16,7 +16,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
-.icon-add-to-cart-ic-gray {
+.icon-add-to-cart-ic-hover {
   background-image: url(../img/sprite.png);
   background-position: 0px -38px;
   width: 22px;
@@ -34,19 +34,19 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 27px;
   height: 19px;
 }
-.icon-cart-hover-ic-gray {
+.icon-cart-hover-ic {
   background-image: url(../img/sprite.png);
   background-position: -44px -59px;
   width: 24px;
   height: 17px;
 }
-.icon-cart-hover-ic {
+.icon-cart-ic {
   background-image: url(../img/sprite.png);
   background-position: -20px -59px;
   width: 24px;
   height: 17px;
 }
-.icon-like-ic-orange {
+.icon-like-ic-hover {
   background-image: url(../img/sprite.png);
   background-position: -57px -80px;
   width: 19px;
@@ -58,7 +58,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 19px;
   height: 16px;
 }
-.icon-mail-ic-gray {
+.icon-mail-ic-hover {
   background-image: url(../img/sprite.png);
   background-position: -81px -36px;
   width: 18px;
@@ -94,7 +94,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 27px;
   height: 19px;
 }
-.icon-phone-book-ic-gray {
+.icon-phone-book-ic-hover {
   background-image: url(../img/sprite.png);
   background-position: -81px -58px;
   width: 12px;
@@ -106,7 +106,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 12px;
   height: 12px;
 }
-.icon-search-ic-orange {
+.icon-search-ic-hover {
   background-image: url(../img/sprite.png);
   background-position: -81px 0px;
   width: 18px;
@@ -118,7 +118,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 18px;
   height: 18px;
 }
-.icon-share-ic-orange {
+.icon-share-ic-hover {
   background-image: url(../img/sprite.png);
   background-position: -19px -80px;
   width: 19px;
@@ -130,7 +130,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 19px;
   height: 17px;
 }
-.icon-user-ic-orange {
+.icon-user-ic-hover {
   background-image: url(../img/sprite.png);
   background-position: 0px -59px;
   width: 20px;
