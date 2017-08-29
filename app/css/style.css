@@ -177,6 +177,7 @@ header .bottom-header{
 
 /* ALL STYLES START */
 
+/*CAROUSEL START*/
 .items-carousel-subtitle span,
 .price-wrapper{
     font-family: 'Harmonia_semibold';
@@ -198,6 +199,9 @@ header .bottom-header{
 .price-wrapper a:hover{
     color: #ff5912;
 }
+/*CAROUSEL END*/
+
+/*NEW ARRIVALS START*/
 .item-img{
     height: 216px;
 }
@@ -226,11 +230,14 @@ header .bottom-header{
 span .circle + .circle{
     margin-left: 5px;
 }
+/*NEW ARRIVALS END*/
 
+/*BEST OFFER START*/
+.special-offer{
+    background-color: #ffffff;
+}
 
-
-
-
+/*BEST OFFER END*/
 
 
 
