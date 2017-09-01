@@ -369,6 +369,7 @@ span .circle + .circle{
 /*KIT START*/
 .kit{
     padding: 30px 60px;
+    border: 1px solid #f2f4f7;
 }
 .sales-block{
     position: relative;
@@ -434,6 +435,7 @@ span .circle + .circle{
     padding: 30px;
     font-family:'Harmonia_regular';
     color: #34404b;
+    border: 1px solid #f2f4f7;
 }
 .adv-area span.adv-area-title{
     display: block;
