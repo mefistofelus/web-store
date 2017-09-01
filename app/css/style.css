@@ -295,6 +295,7 @@ header .social-nav a + a{
 header .bottom-header{
     border-bottom: 1px solid #edeff1;
     padding: 40px 0;
+    background-color: #ffffff;
 }
 .header-logo{
     margin-right: 83px;
@@ -310,7 +311,7 @@ header .bottom-header{
     color: #ff5912;
 }
 .user-controls{
-    margin: auto;
+    margin-left: auto;
 }
 .user-controls a{
     display: block;
@@ -390,7 +391,7 @@ span .circle + .circle{
 
 /*KIT START*/
 .kit{
-    padding: 20px 60px;
+    padding: 30px 60px;
 }
 .sales-block{
     position: relative;
@@ -459,7 +460,7 @@ span .circle + .circle{
     margin-left: 20px;
 }
 .adv-area{
-    padding: 20px;
+    padding: 30px;
     font-family:'Harmonia_regular';
     color: #34404b;
 }
@@ -477,6 +478,7 @@ span .circle + .circle{
 
 /*BEST SALES START*/
 .best-sales-item{
+    padding: 35px 25px;
     -webkit-transition: all .3s linear;
     -o-transition: all .3s linear;
     transition: all .3s linear;
@@ -486,18 +488,18 @@ span .circle + .circle{
             box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
 }
 .best-sales-item-img{
-    padding: 35px 25px;
+    padding-right: 25px;
 }
 .best-sales-item-description{
     display: block;
-    position: relative;
-    margin: 52px 0;
+    max-height: 65px;
     padding-left: 25px;
     border-left: 1px solid #f2f4f7;
 }
 .best-sales-item-title{
     display: block;
-    margin-bottom: 34px;
+    margin-top: 15px;
+    margin-bottom: 25px;
     font-family:'Harmonia_bold';
     font-size: 18px;
     color: #34404b;
@@ -515,10 +517,6 @@ span .circle + .circle{
 }
 .add-to-cart{
     opacity: 0;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     -webkit-transition: all .3s linear;
     -o-transition: all .3s linear;
     transition: all .3s linear;
@@ -528,7 +526,7 @@ span .circle + .circle{
     font-size: 16px;
 }
 .best-sales-item:hover .description-details{
-    opacity: 0;
+    display: none;
 }
 .best-sales-item:hover .add-to-cart{
     opacity: 1;
