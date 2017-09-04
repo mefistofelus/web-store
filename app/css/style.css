@@ -106,6 +106,9 @@ span.icon{
     font-size: 36px;
     margin-bottom: 25px;
 }
+.title.middle{
+    font-size: 28px;
+}
 .title.big{
     font-size: 52px;
 }
@@ -479,6 +482,9 @@ span .circle + .circle{
 /*KIT END*/
 
 /*BEST SALES START*/
+/*.best-sales-item *{
+    outline: 1px solid red;
+}*/
 .best-sales-item{
     padding: 35px 25px;
     -webkit-transition: all .3s linear;
@@ -494,13 +500,14 @@ span .circle + .circle{
 }
 .best-sales-item-description{
     display: block;
-    max-height: 65px;
-    padding-left: 25px;
+    padding-top: 15px;
+}
+.item-description-inner{
     border-left: 1px solid #f2f4f7;
+    padding-left: 25px;
 }
 .best-sales-item-title{
     display: block;
-    margin-top: 15px;
     margin-bottom: 25px;
     font-family:'Harmonia_bold';
     font-size: 18px;
@@ -518,10 +525,7 @@ span .circle + .circle{
     color: #ff5912;
 }
 .add-to-cart{
-    opacity: 0;
-    -webkit-transition: all .3s linear;
-    -o-transition: all .3s linear;
-    transition: all .3s linear;
+    display: none;
 }
 .add-to-cart span.add-button{
     font-family:'Harmonia_semibold';
@@ -531,9 +535,69 @@ span .circle + .circle{
     display: none;
 }
 .best-sales-item:hover .add-to-cart{
+    display: block;
+    opacity: .4;
+    margin-top: -5px;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.best-sales-item-description:hover .add-to-cart{
     opacity: 1;
 }
 /*BEST SALES END*/
+
+/*FOOTER START*/
+footer{
+    margin-top: 60px;
+}
+.footer-wrapper{
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+.copyright span{
+    display: block;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #28313b;
+}
+.footer-nav li{
+    display: block;
+    font-size: 14px;
+    color: #28313b;
+}
+.footer-nav li + li{
+    margin-top: 15px;
+}
+.footer-nav li:hover{
+    color: #ff5912;
+}
+.footer-nav li::before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 4px;
+    height: 4px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    background-color: #28313b;
+}
+.footer-nav li:hover:before{
+    background-color: #ff5912;
+}
+.footer-payment span{
+    display: block;
+    margin-bottom: 15px;
+    font-family:'Harmonia_semibold';
+    font-size: 16px;
+    line-height: 1.8;
+    color: #ff5912;
+}
+.footer-wrapper a.icon{
+    display: inline-block;
+}
+/*FOOTER END*/
 
 /*CATEGORY PAGE STYLE START*/
 .category-wrap{
@@ -557,5 +621,117 @@ span .circle + .circle{
 .category-wrap .load-more{
     margin-top: 0;
 }
+.range{
+    margin-top: 40px;
+}
+.min-value, .max-value{
+    position: absolute;
+    top: -150%;
+    font-size: 14px;
+    color: #34404b;
+    font-family: 'Harmonia_semibold';
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    left: 50%;
+}
+/*CATEGORY PAGE STYLE END*/
+
+/*PRODUCT PAGE STYLE START*/
+.product-wrap{
+    padding: 100px 125px;
+    background-color: #fff;
+}
+.product-carousel{
+    width: 330px;
+}
+.chose-size span{
+    margin-right: 40px;
+}
+.size-radio input[type="radio"]{
+    display: none;
+}
+.size-radio label{
+    font-size: 14px;
+    color: #34404b;
+    font-family:'Harmonia_semibold';
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.size-radio input[type="radio"]:checked + label{
+    color: #ff5912;
+    font-size: 18px;
+}
+.size-radio + .size-radio{
+    margin-left: 20px;
+}
+.order-title,
+.order-subtitle{
+    display: block;
+}
+.order-subtitle{
+    font-family:'Harmonia_semibold';
+    font-size: 18px;
+    line-height: 1.66;
+    color: #3c4751;
+}
+.order-info p{
+    display: block;
+    padding: 40px 0;
+    width: 500px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #495662;
+}
+.order-form{
+    padding: 40px 0;
+    border-top: 1px solid #edeff1;
+    border-bottom: 1px solid #edeff1;
+}
+.jq-number__field{
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.jq-number__spin.minus,
+.jq-number__spin.plus{
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background: none;
+}
+.jq-number__spin.minus{
+
+}
+.jq-number__spin.plus{
+
+}
+.jq-number__field input{
+    color: #ff5912;
+}
+/*PRODUCT PAGE STYLE END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ALL STYLES END */
