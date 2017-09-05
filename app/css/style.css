@@ -482,9 +482,6 @@ span .circle + .circle{
 /*KIT END*/
 
 /*BEST SALES START*/
-/*.best-sales-item *{
-    outline: 1px solid red;
-}*/
 .best-sales-item{
     padding: 35px 25px;
     -webkit-transition: all .3s linear;
@@ -615,6 +612,15 @@ footer{
     color: #ff5912;
     margin-bottom: 35px;
 }
+.checkbox-group + .checkbox-group{
+    padding-top: 38px;
+}
+.checkbox-group label{
+    font-family:'Harmonia_semibold';
+}
+form.categories .checkbox-group label::before{
+    display: none;
+}
 .category-wrap .item{
     margin-bottom: 30px;
 }
@@ -623,6 +629,22 @@ footer{
 }
 .range{
     margin-top: 40px;
+}
+.range-input-reoup{
+    margin-top: 35px;
+}
+.range-input-reoup label{
+    margin-right: 15px;
+    font-family:'Harmonia_semibold';
+    font-size: 14px;
+    color: #34404b;
+}
+.range-input-reoup input[type="number"]{
+    background-color: #edf0f2;
+    width: 45px;
+}
+.range-input-reoup + .range-input-reoup{
+    margin-left: 10px;
 }
 .min-value, .max-value{
     position: absolute;
