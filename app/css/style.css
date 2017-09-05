@@ -287,7 +287,7 @@ header .top-header .phones-list li + li{
 header .top-header .phones-list li span.custom-icon{
     margin-right: 10px;
 }
-header .social-nav a + a{
+header .header-social-nav a + a{
     margin-left: 10px;
 }
 .items-carousel{
@@ -729,6 +729,23 @@ form.categories .checkbox-group label::before{
 
 }
 .jq-number__field input{
+    color: #ff5912;
+}
+.order-now{
+    margin-top: 40px;
+}
+.order-now .btn-default {
+    color: #ffffff;
+    padding: 15px 23px;
+    background-color: #ff5912;
+    border-color: #ff5912;
+    -webkit-border-radius: 30px;
+            border-radius: 30px;
+    font-family:'Harmonia_semibold';
+    font-size: 18px;
+}
+.order-now .btn-default:hover{
+    background-color: #fff;
     color: #ff5912;
 }
 /*PRODUCT PAGE STYLE END*/
