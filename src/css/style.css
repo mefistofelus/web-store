@@ -328,6 +328,9 @@ header .bottom-header{
 /* ALL STYLES START */
 
 /*CAROUSEL START*/
+.item-flexslider{
+    position: relative;
+}
 .items-carousel-subtitle span,
 .price-wrapper{
     font-family: 'Harmonia_semibold';
@@ -708,6 +711,27 @@ form.categories .checkbox-group label::before{
     background-color: #fff;
     color: #ff5912;
 }
+.order-now .btn-default:focus{
+    outline: none;
+}
+.order-now .product-share{
+    margin-left: auto;
+}
+.order-now .btn-default{
+    margin-left: 25px;
+}
+.product-share .item-controls li + li{
+    margin-left: 30px;
+}
+.product-share .item-controls span.icon-add-to-cart-ic:hover{
+    background-position: 0 -38px;
+}
+
+
+
+
+
+
 /*PRODUCT PAGE STYLE END*/
 
 
