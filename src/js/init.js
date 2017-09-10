@@ -64,9 +64,7 @@ $( function() {
         $(this).attr('min', values[0]);
         range.slider( "option", "values", [ values[0] , this.value ] );
 
-    })
-
-
+    });
 
     // flexslider init
     $(window).load(function() {
@@ -76,17 +74,16 @@ $( function() {
         });
     });
 
+    // item-flexslider home init
     $(window).load(function() {
         $('.item-flexslider').flexslider({
             animation: "slide"
         });
     });
 
-    /// formstayler init
-    $('.custom-number').styler();
-
-
-    ///formstyler init
-    $('.custom-number').styler();
-
+    //slick nav init
+    $('.header-nav').slicknav({
+        appendTo: 'header .bottom-header .flex-container.justify-sp-between',
+        label: ''
+    });
 });

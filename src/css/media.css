@@ -1,0 +1,10 @@
+/*HOME*/
+@media (max-width: 1199px) {
+    .item-description, .more-info-on-hover{
+        padding: 0;
+    }
+    .kit{
+        padding: 20px 25px;
+    }
+}
+/*HOME*/
