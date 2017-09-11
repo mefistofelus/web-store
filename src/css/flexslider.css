@@ -239,6 +239,9 @@ html[xmlns] .flexslider .slides {
   transform: translateY(-50%);
   width: auto;
 }
+.flexslider .flex-control-nav{
+  transform: none;
+}
 .item-flexslider .flex-control-paging li{
   margin: 0;
   display: block;

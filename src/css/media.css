@@ -6,5 +6,42 @@
     .kit{
         padding: 20px 25px;
     }
+    .adv-area{
+        padding: 30px;
+    }
+    .item-description-inner, .best-sales-item-img{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .load-more{
+        margin: 25px 0 0 0;
+    }
+    .best-sales-item{
+        padding: 30px 10px;
+    }
+}
+@media (max-width: 991px){
+    .bottom-header .header-nav{
+        display: none;
+    }
+    .slicknav_menu{
+        display: block;
+    }
+    .bottom-header .user-controls{
+        margin: 0;
+    }
+    .item{
+        margin-bottom: 30px;
+    }
+    .kit{
+        margin-bottom: 30px;
+    }
+    .subscribe-form{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .subscribe-form .subscribe-description{
+        margin-bottom: 30px;
+    }
 }
 /*HOME*/

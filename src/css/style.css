@@ -441,7 +441,7 @@ span .circle + .circle{
     margin-left: 20px;
 }
 .adv-area{
-    padding: 30px;
+    padding: 40px;
     font-family:'Harmonia_regular';
     color: #34404b;
     border: 1px solid #f2f4f7;
@@ -483,6 +483,9 @@ span .circle + .circle{
     font-family:'Harmonia_bold';
     font-size: 18px;
     color: #34404b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .description-details{
     font-family:'Harmonia_bold';
