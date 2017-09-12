@@ -81,6 +81,9 @@ $( function() {
         });
     });
 
+    // formstayler init
+    $('.custom-number').styler();
+
     //slick nav init
     $('.header-nav').slicknav({
         appendTo: 'header .bottom-header .flex-container.justify-sp-between',

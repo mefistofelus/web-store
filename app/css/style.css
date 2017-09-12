@@ -698,6 +698,9 @@ form.categories .checkbox-group label::before{
 .size-radio + .size-radio{
     margin-left: 20px;
 }
+.quantity > span{
+    margin-right: 10px;
+}
 .order-title,
 .order-subtitle{
     display: block;
