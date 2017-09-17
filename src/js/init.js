@@ -1,5 +1,4 @@
 $( function() {
-
     var fromInput = $('input[name="fromValue"]'),
         toInput = $('input[name="toValue"]'),
         range = $( "#slider-range" );
@@ -39,8 +38,8 @@ $( function() {
     range.slider({
         range: true,
         min: 0,
-        max: 500,
-        values: [ 75, 300 ],
+        max: 1100,
+        values: [ 100, 1000 ],
         create: onCreateRange,
         slide: changeMinMaxVal,
         change: changeMinMaxVal
@@ -49,7 +48,7 @@ $( function() {
 
 
 
-    fromInput.on('keyup', function (e) {
+    fromInput.on('change', function (e) {
 
         var values = range.slider( "option", "values");
         $(this).attr('max', values[1]);
@@ -58,7 +57,7 @@ $( function() {
 
     });
 
-    toInput.on('keyup', function (e) {
+    toInput.on('change', function (e) {
 
         var values = range.slider( "option", "values");
         $(this).attr('min', values[0]);
@@ -81,12 +80,12 @@ $( function() {
         });
     });
 
-    // formstayler init
-    $('.custom-number').styler();
-
     //slick nav init
     $('.header-nav').slicknav({
         appendTo: 'header .bottom-header .flex-container.justify-sp-between',
         label: ''
     });
+
+    // formstayler init
+    $('.custom-number').styler({});
 });

@@ -11,11 +11,13 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <!--jQuery UI style-->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/slicknav.css">
     <!--Font Awesome style-->
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/sprite.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,56 +27,60 @@
     <![endif]-->
 </head>
 <body>
-    <!-- HEADER START -->
-    <header>
-        <div class="top-header">
-            <div class="container">
-                <div class="flex-container justify-sp-between">
-                    <ul class="phones-list flex-container align-center">
-                        <li class="flex-container align-center"><span class="custom-icon icon-mail-ic-hover"></span>info@shopy.com</li>
-                        <li class="flex-container align-center"><span class="custom-icon icon-phone-book-ic-hover"></span>996 - 5553 - 453</li>
-                    </ul>
-                    <nav class="header-social-nav">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                    </nav>
+<!-- HEADER START -->
+<header class="white-bg header">
+    <div class="top-header">
+        <div class="container">
+            <div class="flex-container justify-sp-between">
+                <ul class="phones-list flex-container align-center">
+                    <li class="flex-container align-center"><span class="custom-icon icon-mail-ic-hover"></span>info@shopy.com</li>
+                    <li class="flex-container align-center"><span class="custom-icon icon-phone-book-ic-hover"></span>996 - 5553 - 453</li>
+                </ul>
+                <nav class="header-social-nav">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-header">
+        <div class="container">
+            <div class="flex-container justify-sp-between">
+                <div class="header-logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <nav class="header-nav flex-container align-center">
+                    <a href="#">Home</a>
+                    <a href="#">Products</a>
+                    <a href="#">Hot Deals</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </nav>
+                <div class="user-controls flex-container align-center">
+                    <a href="" class="icon icon-search-ic"></a>
+                    <a href="" class="icon icon-user-ic"></a>
+                    <a href="" class="icon icon-cart-ic">
+                        <span class="label label-default">5</span>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="bottom-header">
-            <div class="container">
-                <div class="flex-container justify-sp-between">
-                    <div class="header-logo">
-                        <img src="img/logo.png" alt="">
-                    </div>
-                    <nav class="header-nav flex-container align-center">
-                        <a href="#">Home</a>
-                        <a href="#">Products</a>
-                        <a href="#">Hot Deals</a>
-                        <a href="#">About</a>
-                        <a href="#">Contact</a>
-                    </nav>
-                    <div class="user-controls flex-container align-center">
-                        <a href="" class="icon icon-search-ic"></a>
-                        <a href="" class="icon icon-user-ic"></a>
-                        <a href="" class="icon icon-cart-ic">
-                            <span class="label label-default">5</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- HEADER END -->
+    </div>
+</header>
+<!-- HEADER END -->
 
     <!-- MAIN START -->
     <main>
         <div class="category-wrap">
             <div class="container">
+                <div class="mobile-sidebar-btn">
+                    <i class="fa fa-arrow-circle-right"></i>
+                </div>
+                <div class="overlay"></div>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-xs-12 mobile-sidebar-wrap">
                         <aside class="sidebar">
                             <div class="aside-section white-bg">
                                 <div class="aside-section-title">
@@ -165,9 +171,9 @@
                             </div>
                         </aside>
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-md-9 col-xs-12">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="item">
                                     <div class="item-img">
                                         <a href="category.html"><img src="img/item-img-2.png" alt=""></a>
@@ -198,7 +204,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="item">
                                     <div class="item-img">
                                         <a href="category.html"><img src="img/item-img-1.png" alt=""></a>
@@ -229,7 +235,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 hidden-sm col-xs-12">
                                 <div class="item">
                                     <div class="item-img">
                                         <a href="category.html"><img src="img/item-img-3.png" alt=""></a>
@@ -262,7 +268,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="item">
                                     <div class="item-img">
                                         <a href="category.html"><img src="img/item-img-2.png" alt=""></a>
@@ -293,7 +299,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="item">
                                     <div class="item-img">
                                         <a href="category.html"><img src="img/item-img-1.png" alt=""></a>
@@ -324,7 +330,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 hidden-sm col-xs-12">
                                 <div class="item">
                                     <div class="item-img">
                                         <a href="category.html"><img src="img/item-img-3.png" alt=""></a>
@@ -357,7 +363,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="item">
                                     <div class="item-img">
                                         <a href="category.html"><img src="img/item-img-2.png" alt=""></a>
@@ -388,7 +394,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="item">
                                     <div class="item-img">
                                         <a href="category.html"><img src="img/item-img-1.png" alt=""></a>
@@ -419,7 +425,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 hidden-sm col-xs-12">
                                 <div class="item">
                                     <div class="item-img">
                                         <a href="category.html"><img src="img/item-img-3.png" alt=""></a>
@@ -485,63 +491,45 @@
             </div>
         </div>
     </main>
-
     <!-- MAIN END -->
 
-    <!-- FOOTER START -->
-    <footer class="white-bg">
-        <div class="container">
-            <div class="footer-wrapper">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="footer-logo">
-                            <img src="img/logo.png" alt="logo">
-                        </div>
-                        <div class="copyright">
-                            <span>shopy c 2015 . your copy right here</span>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-md-offset-1">
-                        <div class="footer-nav">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <ul>
-                                        <li><a href="">about us</a></li>
-                                        <li><a href="">contact us</a></li>
-                                        <li><a href="">support</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-4">
-                                    <ul>
-                                        <li><a href="">our feed</a></li>
-                                        <li><a href="">terms and conditions</a></li>
-                                        <li><a href="">our privacy</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-4">
-                                    <ul>
-                                        <li><a href="">join us</a></li>
-                                        <li><a href="">live support</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="footer-payment">
-                            <span>Payment Methods</span>
-                            <a href="" class="icon icon-amex-ic"></a>
-                            <a href="" class="icon icon-no-name-cart-1-ic"></a>
-                            <a href="" class="icon icon-visa-ic"></a>
-                            <a href="" class="icon icon-master-cart-ic"></a>
-                            <a href="" class="icon icon-no-name-cart-2-ic"></a>
-                        </div>
-                    </div>
-                </div>
+<!-- FOOTER START -->
+<footer class="white-bg">
+    <div class="container">
+        <div class="footer-wrapper flex-container justify-sp-between">
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="logo">
+                <span class="copyright">shopy c 2015 . your copy right here</span>
+            </div>
+            <div class="footer-nav flex-container justify-sp-between">
+                <ul>
+                    <li><a href="">about us</a></li>
+                    <li><a href="">contact us</a></li>
+                    <li><a href="">support</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">our feed</a></li>
+                    <li><a href="">terms and conditions</a></li>
+                    <li><a href="">our privacy</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">join us</a></li>
+                    <li><a href="">live support</a></li>
+                </ul>
+            </div>
+            <div class="footer-payment">
+                <span>Payment Methods</span>
+                <a href="" class="icon icon-amex-ic"></a>
+                <a href="" class="icon icon-no-name-cart-1-ic"></a>
+                <a href="" class="icon icon-visa-ic"></a>
+                <a href="" class="icon icon-master-cart-ic"></a>
+                <a href="" class="icon icon-no-name-cart-2-ic"></a>
             </div>
         </div>
-    </footer>
-    <!-- FOOTER END -->
+    </div>
+</footer>
+
+<!-- FOOTER END -->
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -549,6 +537,7 @@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
 <script src="js/plugins.min.js"></script>
 </body>
 </html>

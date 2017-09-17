@@ -263,11 +263,14 @@ header .top-header {
     border-bottom: 1px solid #edeff1;
     padding: 20px 0;
 }
-header .top-header .phones-list li + li{
+.phones-list li + li{
     margin-left: 20px;
 }
-header .top-header .phones-list li span.custom-icon{
+.phones-list li span.custom-icon{
     margin-right: 10px;
+}
+header .header-social-nav i.fa{
+    font-size: 13px;
 }
 header .header-social-nav a + a{
     margin-left: 10px;
@@ -277,10 +280,17 @@ header .header-social-nav a + a{
     background: url("../img/carousel-img-1.jpg") no-repeat center / cover;
     margin-bottom: 60px;
 }
+/* DEFAULT COMPONENTS END */
+
+/* ALL STYLES START */
+
+/* HEADER START */
+.header{
+    position: relative;
+}
 header .bottom-header{
     border-bottom: 1px solid #edeff1;
     padding: 40px 0;
-    background-color: #ffffff;
 }
 .header-logo{
     margin-right: 83px;
@@ -324,9 +334,8 @@ header .bottom-header{
     border-radius: 50%;
     background-color: #34404b;
 }
-/* DEFAULT COMPONENTS END */
 
-/* ALL STYLES START */
+/* HEADER END */
 
 /*CAROUSEL START*/
 .item-flexslider{
@@ -353,6 +362,18 @@ header .bottom-header{
 }
 .price-wrapper a:hover{
     color: #ff5912;
+}
+.item-flexslider .carousel-indicators li{
+    background: #fff;
+    box-shadow: none;
+    border-radius: 0;
+    width: 10px;
+    height: 16px;
+    transition: all .3s linear;
+}
+.item-flexslider .flex-control-paging li a.flex-active{
+    background: #ff5912;
+    height: 36px;
 }
 /*CAROUSEL END*/
 
@@ -527,11 +548,14 @@ footer{
     padding-top: 90px;
     padding-bottom: 80px;
 }
-.copyright span{
+span.copyright{
     display: block;
     font-size: 14px;
-    margin-top: 20px;
+    margin: 20px 0;
     color: #28313b;
+}
+.footer-nav ul + ul{
+    margin-left: 55px;
 }
 .footer-nav li{
     display: block;
@@ -573,6 +597,12 @@ footer{
 /*CATEGORY PAGE STYLE START*/
 .category-wrap{
     padding-top: 120px;
+}
+.mobile-sidebar-btn{
+    font-size: 30px;
+    color: #ff5912;
+    display: none;
+    margin-bottom: 20px;
 }
 .aside-section{
     padding: 40px;
@@ -735,35 +765,5 @@ form.categories .checkbox-group label::before{
 .product-share .item-controls span.icon-add-to-cart-ic:hover{
     background-position: 0 -38px;
 }
-
-
-
-
-
-
 /*PRODUCT PAGE STYLE END*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ALL STYLES END */

@@ -48,5 +48,99 @@
     .subscribe-form .subscribe-description{
         margin-bottom: 30px;
     }
+    .footer-wrapper{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .footer-logo, .footer-payment{
+        text-align: center;
+    }
+    .footer-payment > span{
+        margin-top: 15px;
+    }
+    .mobile-sidebar-btn{
+        display: block;
+        position: relative;
+        z-index: 99;
+    }
+    .mobile-sidebar-wrap{
+        position: absolute;
+        -webkit-transform: translateX(-110%);
+            -ms-transform: translateX(-110%);
+                transform: translateX(-110%);
+        -webkit-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        transition: all .3s linear;
+        z-index: 99;
+    }
+    .overlay{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 98;
+        opacity: 0;
+        z-index: -1;
+        -webkit-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        transition: all .3s linear;
+        background-color: rgba(0, 0, 0, .4);
+    }
+    main.show .mobile-sidebar-wrap{
+        -webkit-transform: translateX(0);
+            -ms-transform: translateX(0);
+                transform: translateX(0);
+        left: 0;
+        right: 0;
+    }
+    main.show .overlay{
+        z-index: 98;
+        opacity: 1;
+    }
+    main.show .mobile-sidebar-btn{
+        display: inline-block;
+        -webkit-transform: rotate(-180deg);
+            -ms-transform: rotate(-180deg);
+                transform: rotate(-180deg);
+        -webkit-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        transition: all .3s linear;
+    }
+}
+@media (max-width : 600px) {
+
+}
+@media (max-width : 479px) {
+    .header-logo{
+        margin: 0;
+    }
+    .top-header .flex-container.justify-sp-between{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    ul.phones-list{
+        margin: 0 auto;
+    }
+    .header-social-nav{
+        white-space: nowrap;
+        margin: 10px auto 0;
+    }
+    .user-controls a + a{
+        margin-left: 10px;
+    }
+}
+@media (max-width : 320px) {
+
 }
 /*HOME*/
