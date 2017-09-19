@@ -53,10 +53,14 @@
     .footer-payment > span{
         margin-top: 15px;
     }
+    /*CATEGORY PAGE*/
+    .category-wrap{
+        padding: 60px 0;
+    }
     .mobile-sidebar-btn{
         display: block;
-        position: relative;
         z-index: 99;
+        position: relative;
     }
     .mobile-sidebar-wrap{
         position: absolute;
@@ -70,7 +74,6 @@
         right: 0;
         left: 0;
         bottom: 0;
-        z-index: 98;
         opacity: 0;
         z-index: -1;
         transition: all .3s linear;
@@ -84,11 +87,6 @@
     main.show .overlay{
         z-index: 98;
         opacity: 1;
-    }
-    main.show .mobile-sidebar-btn{
-        display: inline-block;
-        transform: rotate(-180deg);
-        transition: all .3s linear;
     }
 }
 @media (max-width : 600px) {
